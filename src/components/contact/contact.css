@@ -1,0 +1,162 @@
+#contactPage {
+  min-height: calc(100vh - 4rem);
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.contactPageTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-top: 3rem;
+
+  color: #01e3be;
+  width: 100%;
+}
+
+.knowledgeImgs {
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: center;
+}
+
+.knowledgeImg {
+  object-fit: cover;
+  width: calc(30% - 2rem);
+  min-width: 9rem;
+  margin: 0.5rem;
+  padding: 1rem;
+
+  border-radius: 1rem;
+  background-image: linear-gradient(130deg, #001512, #00233d);
+  border: 1px solid #333;
+}
+
+.knowledgeImg:hover {
+  background-image: linear-gradient(130deg, #003c33, #013054);
+  cursor: pointer;
+  transition: 0.5s;
+  border-color: #03ffd9;
+  box-shadow: 0 0 10px #000;
+  transform: translate(-5px, -10px);
+}
+
+.contactDesc {
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(130deg, #002721, #00233d);
+}
+
+.name:hover,
+.email:hover,
+.msg:hover {
+  background-image: linear-gradient(130deg, #001c17, #00233d);
+}
+
+.name:focus,
+.email:focus,
+.msg:focus {
+  background-image: linear-gradient(130deg, #003c33, #013054);
+  cursor: pointer;
+  transition: 0.5s;
+  border-color: #03ffd9;
+  box-shadow: 0 0 10px #000;
+  transform: translate(0, -2px);
+}
+
+.submitBtn {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(130deg, #002721, #00233d);
+}
+
+.submitBtn:hover {
+  background-image: linear-gradient(130deg, #001c17, #00233d);
+}
+
+.submitBtn:focus {
+  background-image: linear-gradient(130deg, #003c33, #013054);
+  cursor: pointer;
+  transition: 0.1s;
+  border-color: #03ffd9;
+  box-shadow: 0 0 10px #000;
+  transform: translate(0, -2px);
+}
+
+.links {
+  margin: 1rem;
+  display: initial;
+  align-items: center;
+}
+
+.links-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .links-icon {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .links-icon {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .knowledgeImg {
+    width: calc(50% - 2.5rem);
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .contactPageTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,30 @@
+.footer {
+  width: 100vw;
+  height: 4rem;
+  background-image: linear-gradient(130deg, #003c33, #013054);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: small;
+}
+
+.scrollTop{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  background-image: linear-gradient(130deg,#003c33, #013054 );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.scrollTop:hover{
+  background-image: linear-gradient(130deg, #016455, #02487d);  
+  box-shadow: #003c33;
+}

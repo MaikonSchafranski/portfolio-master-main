@@ -1,0 +1,79 @@
+#works {
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1;
+}
+
+.worksTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #01e3be;
+}
+
+.skillsDesc {
+  font-size: medium;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 0 2rem;
+}
+
+.worksBars {
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.worksBar {
+  display: flex;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 1em;
+  background-image: linear-gradient(130deg, #001512, #00233d);
+  border: 1px solid #333;
+}
+
+.worksBar:hover {
+  background-image: linear-gradient(130deg, #003c33, #013054);
+  cursor: pointer;
+  transition: .5s;
+  border-color: #03ffd9;
+  box-shadow: 0 0 10px #000;
+  transform: translate(-2px, -2px)
+}
+
+@media screen and (max-width: 725px) {
+  .worksBars {
+    max-width: 90%;
+  }
+
+  .worksTitle {
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .worksBar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,5 @@
+2023.11.21 21:05:59 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\maiko.MAIKON\OneDrive\Área de Trabalho\portfolio-main' for client Visual Studio Code 1.84.2.
+2023.11.21 21:06:01 WARN  Build server is not auto-connectable.
+2023.11.21 21:06:01 WARN  no build tool detected in workspace 'C:\Users\maiko.MAIKON\OneDrive\Área de Trabalho\portfolio-main'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+nov 21, 2023 9:18:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTrace
